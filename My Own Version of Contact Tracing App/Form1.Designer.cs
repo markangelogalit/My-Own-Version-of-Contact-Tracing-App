@@ -324,12 +324,13 @@
             // 
             // bnt1save
             // 
+            this.bnt1save.BackColor = System.Drawing.Color.Transparent;
             this.bnt1save.Location = new System.Drawing.Point(684, 418);
             this.bnt1save.Name = "bnt1save";
             this.bnt1save.Size = new System.Drawing.Size(104, 42);
             this.bnt1save.TabIndex = 31;
             this.bnt1save.Text = "Save Information";
-            this.bnt1save.UseVisualStyleBackColor = true;
+            this.bnt1save.UseVisualStyleBackColor = false;
             // 
             // lbl17title
             // 
@@ -345,6 +346,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PapayaWhip;
             this.ClientSize = new System.Drawing.Size(800, 472);
             this.Controls.Add(this.lbl17title);
             this.Controls.Add(this.bnt1save);
