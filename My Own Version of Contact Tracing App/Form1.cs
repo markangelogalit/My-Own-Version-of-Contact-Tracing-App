@@ -63,8 +63,9 @@ namespace My_Own_Version_of_Contact_Tracing_App
             file.WriteLine("Time-Out: " + tbx11out.Text);
             file.WriteLine("Last Place Visited: " + tbx12visited.Text);
             file.WriteLine("Question1: " + tbx13expe.Text);
-            file.WriteLine("First Name: " + tbx14me.Text);
-            file.WriteLine("First Name: " + tbx15ame.Text);
+            file.WriteLine("Question2: " + tbx14colleagues.Text);
+            file.WriteLine("Question3: " + tbx15city.Text);
+            file.Close();
         }
     }
 }
