@@ -60,9 +60,9 @@ namespace My_Own_Version_of_Contact_Tracing_App
             file.WriteLine("Temperature: " + tbxtemp8.Text);
             file.WriteLine("Current Address: " + tbx9address.Text);
             file.WriteLine("Time-In: " + tbx10in.Text);
-            file.WriteLine("First Name: " + tbx11ame.Text);
-            file.WriteLine("First Name: " + tbx12ame.Text);
-            file.WriteLine("First Name: " + tbx13ame.Text);
+            file.WriteLine("Time-Out: " + tbx11out.Text);
+            file.WriteLine("Last Place Visited: " + tbx12visited.Text);
+            file.WriteLine("Question1: " + tbx13expe.Text);
             file.WriteLine("First Name: " + tbx14me.Text);
             file.WriteLine("First Name: " + tbx15ame.Text);
         }
