@@ -1,0 +1,17 @@
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\bin\Debug\net6.0-windows\My Own Version of Contact Tracing App.exe
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\bin\Debug\net6.0-windows\My Own Version of Contact Tracing App.deps.json
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\bin\Debug\net6.0-windows\My Own Version of Contact Tracing App.runtimeconfig.json
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\bin\Debug\net6.0-windows\My Own Version of Contact Tracing App.dll
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\bin\Debug\net6.0-windows\My Own Version of Contact Tracing App.pdb
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My_Own_Version_of_Contact_Tracing_App.CTA1.resources
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.AssemblyInfo.cs
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.dll
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\refint\My Own Version of Contact Tracing App.dll
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.pdb
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.genruntimeconfig.cache
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\ref\My Own Version of Contact Tracing App.dll
