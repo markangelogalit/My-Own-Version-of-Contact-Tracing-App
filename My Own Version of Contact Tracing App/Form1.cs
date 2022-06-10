@@ -54,17 +54,17 @@ namespace My_Own_Version_of_Contact_Tracing_App
             file.WriteLine("Middle Name: " + tbx2name.Text);    
             file.WriteLine("Last Name: " + tbx3name.Text);
             file.WriteLine("Age: " + tbx4age.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
-            file.WriteLine("First Name: " + tbx1name.Text);
+            file.WriteLine("Birth Date: " + tbx5bdate.Text);    
+            file.WriteLine("Contact Number: " + tbx6number.Text);
+            file.WriteLine("Email: " + tbx7email.Text);
+            file.WriteLine("First Name: " + tbx8name.Text);
+            file.WriteLine("First Name: " + tbx9name.Text);
+            file.WriteLine("First Name: " + tbx10ame.Text);
+            file.WriteLine("First Name: " + tbx11ame.Text);
+            file.WriteLine("First Name: " + tbx12ame.Text);
+            file.WriteLine("First Name: " + tbx13ame.Text);
+            file.WriteLine("First Name: " + tbx14me.Text);
+            file.WriteLine("First Name: " + tbx15ame.Text);
         }
     }
 }
