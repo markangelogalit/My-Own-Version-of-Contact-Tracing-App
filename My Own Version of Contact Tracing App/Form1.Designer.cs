@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CTA1));
             this.lbl1name = new System.Windows.Forms.Label();
             this.lbl2name = new System.Windows.Forms.Label();
             this.lbl3name = new System.Windows.Forms.Label();
@@ -382,6 +383,7 @@
             this.Controls.Add(this.lbl3name);
             this.Controls.Add(this.lbl2name);
             this.Controls.Add(this.lbl1name);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CTA1";
             this.Text = "My Contact Tracing App";
             this.Load += new System.EventHandler(this.CTA1_Load);
