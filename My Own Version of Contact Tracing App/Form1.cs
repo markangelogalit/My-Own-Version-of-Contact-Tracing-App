@@ -57,9 +57,9 @@ namespace My_Own_Version_of_Contact_Tracing_App
             file.WriteLine("Birth Date: " + tbx5bdate.Text);    
             file.WriteLine("Contact Number: " + tbx6number.Text);
             file.WriteLine("Email: " + tbx7email.Text);
-            file.WriteLine("First Name: " + tbx8name.Text);
-            file.WriteLine("First Name: " + tbx9name.Text);
-            file.WriteLine("First Name: " + tbx10ame.Text);
+            file.WriteLine("Temperature: " + tbxtemp8.Text);
+            file.WriteLine("Current Address: " + tbx9address.Text);
+            file.WriteLine("Time-In: " + tbx10in.Text);
             file.WriteLine("First Name: " + tbx11ame.Text);
             file.WriteLine("First Name: " + tbx12ame.Text);
             file.WriteLine("First Name: " + tbx13ame.Text);
