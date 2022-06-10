@@ -331,6 +331,7 @@
             this.bnt1save.TabIndex = 31;
             this.bnt1save.Text = "Save Information";
             this.bnt1save.UseVisualStyleBackColor = false;
+            this.bnt1save.Click += new System.EventHandler(this.bnt1save_Click);
             // 
             // lbl17title
             // 
