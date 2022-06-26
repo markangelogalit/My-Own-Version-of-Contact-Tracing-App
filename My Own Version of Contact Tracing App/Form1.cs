@@ -49,7 +49,7 @@ namespace My_Own_Version_of_Contact_Tracing_App
 
         private void bnt1save_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\admin\Documents\Contact Tracing Info\test.txt");
+            StreamWriter file = new StreamWriter(@"C:\Users\admin\Documents\Contact Tracing Info\test.txt", true);
             file.WriteLine("First Name: " + tbx1name.Text);
             file.WriteLine("Middle Name: " + tbx2name.Text);    
             file.WriteLine("Last Name: " + tbx3name.Text);
