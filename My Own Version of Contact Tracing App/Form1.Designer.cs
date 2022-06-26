@@ -62,6 +62,8 @@
             this.tbx15city = new System.Windows.Forms.TextBox();
             this.bnt1save = new System.Windows.Forms.Button();
             this.lbl17title = new System.Windows.Forms.Label();
+            this.tbx16date = new System.Windows.Forms.TextBox();
+            this.lbl16date = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl1name
@@ -134,7 +136,7 @@
             // lbl9address
             // 
             this.lbl9address.AutoSize = true;
-            this.lbl9address.Location = new System.Drawing.Point(26, 230);
+            this.lbl9address.Location = new System.Drawing.Point(26, 288);
             this.lbl9address.Name = "lbl9address";
             this.lbl9address.Size = new System.Drawing.Size(92, 15);
             this.lbl9address.TabIndex = 7;
@@ -152,7 +154,7 @@
             // lbl10in
             // 
             this.lbl10in.AutoSize = true;
-            this.lbl10in.Location = new System.Drawing.Point(325, 230);
+            this.lbl10in.Location = new System.Drawing.Point(236, 230);
             this.lbl10in.Name = "lbl10in";
             this.lbl10in.Size = new System.Drawing.Size(48, 15);
             this.lbl10in.TabIndex = 9;
@@ -161,7 +163,7 @@
             // lbl11out
             // 
             this.lbl11out.AutoSize = true;
-            this.lbl11out.Location = new System.Drawing.Point(432, 230);
+            this.lbl11out.Location = new System.Drawing.Point(383, 230);
             this.lbl11out.Name = "lbl11out";
             this.lbl11out.Size = new System.Drawing.Size(58, 15);
             this.lbl11out.TabIndex = 10;
@@ -170,7 +172,7 @@
             // lbl12visited
             // 
             this.lbl12visited.AutoSize = true;
-            this.lbl12visited.Location = new System.Drawing.Point(541, 229);
+            this.lbl12visited.Location = new System.Drawing.Point(510, 230);
             this.lbl12visited.Name = "lbl12visited";
             this.lbl12visited.Size = new System.Drawing.Size(97, 15);
             this.lbl12visited.TabIndex = 11;
@@ -180,7 +182,7 @@
             // 
             this.lbl16thanks.AutoSize = true;
             this.lbl16thanks.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl16thanks.Location = new System.Drawing.Point(325, 443);
+            this.lbl16thanks.Location = new System.Drawing.Point(322, 474);
             this.lbl16thanks.Name = "lbl16thanks";
             this.lbl16thanks.Size = new System.Drawing.Size(221, 20);
             this.lbl16thanks.TabIndex = 12;
@@ -190,7 +192,7 @@
             // lbl15city
             // 
             this.lbl15city.AutoSize = true;
-            this.lbl15city.Location = new System.Drawing.Point(26, 393);
+            this.lbl15city.Location = new System.Drawing.Point(26, 425);
             this.lbl15city.Name = "lbl15city";
             this.lbl15city.Size = new System.Drawing.Size(506, 15);
             this.lbl15city.TabIndex = 13;
@@ -200,7 +202,7 @@
             // lbl13expe
             // 
             this.lbl13expe.AutoSize = true;
-            this.lbl13expe.Location = new System.Drawing.Point(26, 297);
+            this.lbl13expe.Location = new System.Drawing.Point(27, 351);
             this.lbl13expe.Name = "lbl13expe";
             this.lbl13expe.Size = new System.Drawing.Size(459, 15);
             this.lbl13expe.TabIndex = 14;
@@ -210,7 +212,7 @@
             // lbl14colleagues
             // 
             this.lbl14colleagues.AutoSize = true;
-            this.lbl14colleagues.Location = new System.Drawing.Point(26, 346);
+            this.lbl14colleagues.Location = new System.Drawing.Point(26, 387);
             this.lbl14colleagues.Name = "lbl14colleagues";
             this.lbl14colleagues.Size = new System.Drawing.Size(441, 15);
             this.lbl14colleagues.TabIndex = 15;
@@ -225,21 +227,21 @@
             // 
             // tbx10in
             // 
-            this.tbx10in.Location = new System.Drawing.Point(379, 227);
+            this.tbx10in.Location = new System.Drawing.Point(290, 226);
             this.tbx10in.Name = "tbx10in";
             this.tbx10in.Size = new System.Drawing.Size(47, 23);
             this.tbx10in.TabIndex = 17;
             // 
             // tbx13expe
             // 
-            this.tbx13expe.Location = new System.Drawing.Point(491, 294);
+            this.tbx13expe.Location = new System.Drawing.Point(492, 348);
             this.tbx13expe.Name = "tbx13expe";
             this.tbx13expe.Size = new System.Drawing.Size(100, 23);
             this.tbx13expe.TabIndex = 18;
             // 
             // tbx11out
             // 
-            this.tbx11out.Location = new System.Drawing.Point(496, 227);
+            this.tbx11out.Location = new System.Drawing.Point(447, 227);
             this.tbx11out.Name = "tbx11out";
             this.tbx11out.Size = new System.Drawing.Size(39, 23);
             this.tbx11out.TabIndex = 19;
@@ -253,7 +255,7 @@
             // 
             // tbx9address
             // 
-            this.tbx9address.Location = new System.Drawing.Point(120, 227);
+            this.tbx9address.Location = new System.Drawing.Point(124, 285);
             this.tbx9address.Name = "tbx9address";
             this.tbx9address.Size = new System.Drawing.Size(206, 23);
             this.tbx9address.TabIndex = 21;
@@ -296,7 +298,7 @@
             // 
             // tbx14colleagues
             // 
-            this.tbx14colleagues.Location = new System.Drawing.Point(473, 343);
+            this.tbx14colleagues.Location = new System.Drawing.Point(473, 384);
             this.tbx14colleagues.Name = "tbx14colleagues";
             this.tbx14colleagues.Size = new System.Drawing.Size(100, 23);
             this.tbx14colleagues.TabIndex = 27;
@@ -311,14 +313,14 @@
             // 
             // tbx12visited
             // 
-            this.tbx12visited.Location = new System.Drawing.Point(644, 226);
+            this.tbx12visited.Location = new System.Drawing.Point(613, 227);
             this.tbx12visited.Name = "tbx12visited";
             this.tbx12visited.Size = new System.Drawing.Size(144, 23);
             this.tbx12visited.TabIndex = 29;
             // 
             // tbx15city
             // 
-            this.tbx15city.Location = new System.Drawing.Point(538, 390);
+            this.tbx15city.Location = new System.Drawing.Point(538, 417);
             this.tbx15city.Name = "tbx15city";
             this.tbx15city.Size = new System.Drawing.Size(100, 23);
             this.tbx15city.TabIndex = 30;
@@ -326,7 +328,7 @@
             // bnt1save
             // 
             this.bnt1save.BackColor = System.Drawing.Color.Transparent;
-            this.bnt1save.Location = new System.Drawing.Point(684, 418);
+            this.bnt1save.Location = new System.Drawing.Point(684, 460);
             this.bnt1save.Name = "bnt1save";
             this.bnt1save.Size = new System.Drawing.Size(104, 42);
             this.bnt1save.TabIndex = 31;
@@ -344,12 +346,30 @@
             this.lbl17title.TabIndex = 32;
             this.lbl17title.Text = "CONTACT TRACING APP";
             // 
+            // tbx16date
+            // 
+            this.tbx16date.Location = new System.Drawing.Point(66, 227);
+            this.tbx16date.Name = "tbx16date";
+            this.tbx16date.Size = new System.Drawing.Size(145, 23);
+            this.tbx16date.TabIndex = 33;
+            // 
+            // lbl16date
+            // 
+            this.lbl16date.AutoSize = true;
+            this.lbl16date.Location = new System.Drawing.Point(26, 230);
+            this.lbl16date.Name = "lbl16date";
+            this.lbl16date.Size = new System.Drawing.Size(31, 15);
+            this.lbl16date.TabIndex = 34;
+            this.lbl16date.Text = "Date";
+            // 
             // CTA1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
-            this.ClientSize = new System.Drawing.Size(800, 472);
+            this.ClientSize = new System.Drawing.Size(800, 514);
+            this.Controls.Add(this.lbl16date);
+            this.Controls.Add(this.tbx16date);
             this.Controls.Add(this.lbl17title);
             this.Controls.Add(this.bnt1save);
             this.Controls.Add(this.tbx15city);
@@ -427,5 +447,7 @@
         private TextBox tbx15city;
         private Button bnt1save;
         private Label lbl17title;
+        private TextBox tbx16date;
+        private Label lbl16date;
     }
 }
