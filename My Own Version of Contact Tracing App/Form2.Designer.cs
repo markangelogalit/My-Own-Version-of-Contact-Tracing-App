@@ -53,6 +53,7 @@
             // 
             // tbx1
             // 
+            this.tbx1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tbx1.Location = new System.Drawing.Point(98, 50);
             this.tbx1.Name = "tbx1";
             this.tbx1.Size = new System.Drawing.Size(100, 23);
@@ -62,10 +63,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(295, 165);
             this.Controls.Add(this.tbx1);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btn1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
