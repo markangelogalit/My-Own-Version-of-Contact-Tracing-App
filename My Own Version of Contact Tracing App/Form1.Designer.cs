@@ -64,6 +64,7 @@
             this.lbl17title = new System.Windows.Forms.Label();
             this.tbx16date = new System.Windows.Forms.TextBox();
             this.lbl16date = new System.Windows.Forms.Label();
+            this.bnt2vi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl1name
@@ -362,12 +363,23 @@
             this.lbl16date.TabIndex = 34;
             this.lbl16date.Text = "Date";
             // 
+            // bnt2vi
+            // 
+            this.bnt2vi.Location = new System.Drawing.Point(10, 474);
+            this.bnt2vi.Name = "bnt2vi";
+            this.bnt2vi.Size = new System.Drawing.Size(122, 28);
+            this.bnt2vi.TabIndex = 35;
+            this.bnt2vi.Text = "View Information";
+            this.bnt2vi.UseVisualStyleBackColor = true;
+            this.bnt2vi.Click += new System.EventHandler(this.bnt2vi_Click);
+            // 
             // CTA1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
             this.ClientSize = new System.Drawing.Size(800, 514);
+            this.Controls.Add(this.bnt2vi);
             this.Controls.Add(this.lbl16date);
             this.Controls.Add(this.tbx16date);
             this.Controls.Add(this.lbl17title);
@@ -449,5 +461,6 @@
         private Label lbl17title;
         private TextBox tbx16date;
         private Label lbl16date;
+        private Button bnt2vi;
     }
 }
