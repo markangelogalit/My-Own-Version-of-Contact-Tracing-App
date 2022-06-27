@@ -67,6 +67,10 @@ namespace My_Own_Version_of_Contact_Tracing_App
             file.WriteLine("Question3: " + tbx15city.Text);
             file.WriteLine("Date: " + tbx16date.Text);
             file.Close();
+
+
+
+
         }
     }
 }
