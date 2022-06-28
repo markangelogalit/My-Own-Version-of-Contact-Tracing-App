@@ -55,15 +55,36 @@ namespace My_Own_Version_of_Contact_Tracing_App
             if (dateResults == 0)
             {
                 MessageBox.Show("No records found");
+                sr.Close(); 
             }
             else
             {
-                sr.Close(); 
+                sr.Close();
+                StreamWriter file = new StreamWriter(@"C:\Users\admin\Documents\Contact Tracing Info\Specified Date.txt");
                 foreach (string contents in dates)
                 {
-                    MessageBox.Show(contents);
+                    file.WriteLine(contents);
                 }
+                file.Close();
+                MessageBox.Show("Found " + dateResults + "on the selected date");
+                
             }
+            StreamReader reader = new StreamReader(@"C:\Users\admin\Documents\Contact Tracing Info\Specified Date.txt");
+            while (!reader.EndOfStream)
+            {
+                string info = reader.ReadToEnd();
+                MessageBox.Show(info + "\n");
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbx1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
