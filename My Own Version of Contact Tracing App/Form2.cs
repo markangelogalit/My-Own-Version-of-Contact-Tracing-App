@@ -15,13 +15,25 @@ namespace My_Own_Version_of_Contact_Tracing_App
         public Form2()
         {
             InitializeComponent();
+            
         }
 
         private void btn1_Click(object sender, EventArgs e)
         {
             StreamReader reader = new StreamReader(@"C:\Users\admin\Documents\Contact Tracing Info\test.txt");
-            String all = reader.ReadToEnd();    
+            String all = reader.ReadToEnd();
             MessageBox.Show(all);   
+         
+        }
+
+        private void lbl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

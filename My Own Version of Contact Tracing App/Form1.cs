@@ -75,6 +75,8 @@ namespace My_Own_Version_of_Contact_Tracing_App
 
         private void bnt2vi_Click(object sender, EventArgs e)
         {
+         
+          
             Form2 f2 = new Form2();
             f2.ShowDialog();    
         }
