@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.btn1 = new System.Windows.Forms.Button();
             this.lbl1 = new System.Windows.Forms.Label();
             this.tbx1 = new System.Windows.Forms.TextBox();
@@ -113,6 +114,7 @@
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btn1);
             this.ForeColor = System.Drawing.Color.Black;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "Contact Tracing Viewer App";
             this.ResumeLayout(false);
