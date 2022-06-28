@@ -35,5 +35,35 @@ namespace My_Own_Version_of_Contact_Tracing_App
         {
 
         }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            List<string> dates = new List<string>();
+            string Date = tbx1.Text;
+            int dateResults = 0;
+            StreamReader sr = new StreamReader(@"C:\Users\admin\Documents\Contact Tracing Info\test.txt");
+            while (!sr.EndOfStream) 
+            {
+                string contents = sr.ReadToEnd();
+                if (contents.Contains(Date))
+                {
+                    dateResults++;
+                    dates.Add(contents);
+                }
+
+            }
+            if (dateResults == 0)
+            {
+                MessageBox.Show("No records found");
+            }
+            else
+            {
+                sr.Close(); 
+                foreach (string contents in dates)
+                {
+                    MessageBox.Show(contents);
+                }
+            }
+        }
     }
 }

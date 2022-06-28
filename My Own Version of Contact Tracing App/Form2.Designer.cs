@@ -67,11 +67,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 15);
+            this.label1.Size = new System.Drawing.Size(164, 14);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Filter Record by Date";
+            this.label1.Text = "FILTER RECORD BY DATE";
             // 
             // lbl2
             // 
@@ -91,6 +92,7 @@
             this.btn2.TabIndex = 5;
             this.btn2.Text = "Search";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // Form2
             // 
