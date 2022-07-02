@@ -28,68 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnqr1 = new System.Windows.Forms.Button();
+            this.lblqr1 = new System.Windows.Forms.Label();
+            this.comp1 = new System.Windows.Forms.ComboBox();
+            this.pctb1 = new System.Windows.Forms.PictureBox();
+            this.tbxqr1 = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pctb1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnqr1
             // 
-            this.button1.Location = new System.Drawing.Point(639, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnqr1.Location = new System.Drawing.Point(128, 68);
+            this.btnqr1.Name = "btnqr1";
+            this.btnqr1.Size = new System.Drawing.Size(75, 23);
+            this.btnqr1.TabIndex = 0;
+            this.btnqr1.Text = "SEARCH";
+            this.btnqr1.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lblqr1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(121, 57);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.lblqr1.AutoSize = true;
+            this.lblqr1.Location = new System.Drawing.Point(400, 68);
+            this.lblqr1.Name = "lblqr1";
+            this.lblqr1.Size = new System.Drawing.Size(58, 15);
+            this.lblqr1.TabIndex = 1;
+            this.lblqr1.Text = "CAMERA:";
             // 
-            // comboBox1
+            // comp1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(280, 49);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox1.TabIndex = 2;
+            this.comp1.FormattingEnabled = true;
+            this.comp1.Location = new System.Drawing.Point(464, 65);
+            this.comp1.Name = "comp1";
+            this.comp1.Size = new System.Drawing.Size(192, 23);
+            this.comp1.TabIndex = 2;
+            this.comp1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // pictureBox1
+            // pctb1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(341, 114);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 125);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.pctb1.Location = new System.Drawing.Point(336, 113);
+            this.pctb1.Name = "pctb1";
+            this.pctb1.Size = new System.Drawing.Size(383, 313);
+            this.pctb1.TabIndex = 3;
+            this.pctb1.TabStop = false;
             // 
-            // textBox1
+            // tbxqr1
             // 
-            this.textBox1.Location = new System.Drawing.Point(331, 260);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 4;
+            this.tbxqr1.Location = new System.Drawing.Point(44, 113);
+            this.tbxqr1.Multiline = true;
+            this.tbxqr1.Name = "tbxqr1";
+            this.tbxqr1.Size = new System.Drawing.Size(245, 313);
+            this.tbxqr1.TabIndex = 4;
+            this.tbxqr1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(742, 450);
+            this.Controls.Add(this.tbxqr1);
+            this.Controls.Add(this.pctb1);
+            this.Controls.Add(this.comp1);
+            this.Controls.Add(this.lblqr1);
+            this.Controls.Add(this.btnqr1);
             this.Name = "Form3";
             this.Text = "Form3";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.Form3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pctb1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,10 +101,10 @@
 
         #endregion
 
-        private Button button1;
-        private Label label1;
-        private ComboBox comboBox1;
-        private PictureBox pictureBox1;
-        private TextBox textBox1;
+        private Button btnqr1;
+        private Label lblqr1;
+        private ComboBox comp1;
+        private PictureBox pctb1;
+        private TextBox tbxqr1;
     }
 }
