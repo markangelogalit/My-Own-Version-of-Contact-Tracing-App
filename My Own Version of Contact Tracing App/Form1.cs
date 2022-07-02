@@ -80,5 +80,11 @@ namespace My_Own_Version_of_Contact_Tracing_App
             Form2 f2 = new Form2();
             f2.ShowDialog();    
         }
+
+        private void bnt3qr_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
+        }
     }
 }

@@ -44,6 +44,7 @@
             this.btnqr1.TabIndex = 0;
             this.btnqr1.Text = "SEARCH";
             this.btnqr1.UseVisualStyleBackColor = true;
+            this.btnqr1.Click += new System.EventHandler(this.btnqr1_Click);
             // 
             // lblqr1
             // 

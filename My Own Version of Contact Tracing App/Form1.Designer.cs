@@ -65,6 +65,7 @@
             this.tbx16date = new System.Windows.Forms.TextBox();
             this.lbl16date = new System.Windows.Forms.Label();
             this.bnt2vi = new System.Windows.Forms.Button();
+            this.bnt3qr = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl1name
@@ -183,7 +184,7 @@
             // 
             this.lbl16thanks.AutoSize = true;
             this.lbl16thanks.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl16thanks.Location = new System.Drawing.Point(322, 474);
+            this.lbl16thanks.Location = new System.Drawing.Point(307, 511);
             this.lbl16thanks.Name = "lbl16thanks";
             this.lbl16thanks.Size = new System.Drawing.Size(221, 20);
             this.lbl16thanks.TabIndex = 12;
@@ -373,12 +374,23 @@
             this.bnt2vi.UseVisualStyleBackColor = true;
             this.bnt2vi.Click += new System.EventHandler(this.bnt2vi_Click);
             // 
+            // bnt3qr
+            // 
+            this.bnt3qr.Location = new System.Drawing.Point(366, 474);
+            this.bnt3qr.Name = "bnt3qr";
+            this.bnt3qr.Size = new System.Drawing.Size(101, 28);
+            this.bnt3qr.TabIndex = 36;
+            this.bnt3qr.Text = "QRCode";
+            this.bnt3qr.UseVisualStyleBackColor = true;
+            this.bnt3qr.Click += new System.EventHandler(this.bnt3qr_Click);
+            // 
             // CTA1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
-            this.ClientSize = new System.Drawing.Size(800, 514);
+            this.ClientSize = new System.Drawing.Size(800, 540);
+            this.Controls.Add(this.bnt3qr);
             this.Controls.Add(this.bnt2vi);
             this.Controls.Add(this.lbl16date);
             this.Controls.Add(this.tbx16date);
@@ -462,5 +474,6 @@
         private TextBox tbx16date;
         private Label lbl16date;
         private Button bnt2vi;
+        private Button bnt3qr;
     }
 }

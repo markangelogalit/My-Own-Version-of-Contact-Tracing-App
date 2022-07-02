@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AForge.Video;
+using AForge.Video.DirectShow;
 
 namespace My_Own_Version_of_Contact_Tracing_App
 {
@@ -16,6 +18,8 @@ namespace My_Own_Version_of_Contact_Tracing_App
         {
             InitializeComponent();
         }
+
+        FilterInfoCollection FilterInfoCollection;
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -28,6 +32,11 @@ namespace My_Own_Version_of_Contact_Tracing_App
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnqr1_Click(object sender, EventArgs e)
         {
 
         }
