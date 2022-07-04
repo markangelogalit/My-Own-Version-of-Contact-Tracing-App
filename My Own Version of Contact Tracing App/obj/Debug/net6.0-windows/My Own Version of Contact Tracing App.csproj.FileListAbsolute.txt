@@ -16,3 +16,9 @@ C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version
 C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.genruntimeconfig.cache
 C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\ref\My Own Version of Contact Tracing App.dll
 C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My_Own_Version_of_Contact_Tracing_App.Form2.resources
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My_Own_Version_of_Contact_Tracing_App.Form3.resources
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\bin\Debug\net6.0-windows\zxing.dll
+C:\Users\admin\source\repos\My Own Version of Contact Tracing App\My Own Version of Contact Tracing App\obj\Debug\net6.0-windows\My Own Version of Contact Tracing App.csproj.CopyComplete
